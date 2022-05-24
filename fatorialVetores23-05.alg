@@ -1,8 +1,9 @@
 Algoritmo "fatorialcomVetores"
 {TESTE 1 DANIEL}
+//kkk
 //
 //
-// Descrição   : Funções e procedimentos para calcular vetorial
+// DescriÃ§Ã£o   : FunÃ§Ãµes e procedimentos para calcular vetorial
 // Autor(a)    : Beatriz Alencar Kuriki
 // Data atual  : 5/23/2022
 
@@ -12,7 +13,7 @@ vetorFAT : vetor [0..9] de inteiro
 vetorNUM : vetor [0..9] de inteiro
 
 {-----------------------------------------------------------}
-{Função}
+{FunÃ§Ã£o}
 
 funcao calc_fatorial (elemento1 : inteiro): inteiro
 
@@ -36,7 +37,7 @@ var
 i, contador, fatorial : inteiro
 inicio
 para i <- 0 ate 9 faca
-   escreval ( "Escreva o número na posição", i)
+   escreval ( "Escreva o nÃºmero na posiÃ§Ã£o", i)
    leia (num)
    vetorNUM[i] <- num
 fimpara
@@ -81,7 +82,7 @@ fimprocedimento
 
 inicio
 
-escreval ("Digite o número que deseja saber o fatorial:")
+escreval ("Digite o nÃºmero que deseja saber o fatorial:")
 leia (num)
 
 
@@ -95,7 +96,7 @@ enquanto (opcao <> 5) faca
    escolha (opcao)
 
    caso 1
-      escreval ("O fatorial do número é:",calc_fatorial (num))
+      escreval ("O fatorial do nÃºmero Ã©:",calc_fatorial (num))
 
    caso 2
       entrada_dados
@@ -107,12 +108,12 @@ enquanto (opcao <> 5) faca
       limpatela
       escreval ("Digite 1 para vetor NUM")
       escreval ("Digite 2 para vetor FAT")
-      escreval ("Qual sua opção? [1/2]")
+      escreval ("Qual sua opÃ§Ã£o? [1/2]")
       leia (op)
       mostraVetor(op)
 
    caso 5
-      escreval ("Operação finalizada")
+      escreval ("OperaÃ§Ã£o finalizada")
 
    fimescolha
 fimenquanto
