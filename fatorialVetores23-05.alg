@@ -3,7 +3,7 @@ Algoritmo "fatorialcomVetores"
 
 {TESTE 2 DANIEL KK}
 //kkk
-//
+//k
 //
 // Descrição   : Funções e procedimentos para calcular vetorial
 // Autor(a)    : Beatriz Alencar Kuriki
